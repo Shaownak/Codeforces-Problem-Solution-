@@ -28,9 +28,7 @@ int main()
     lli min = pairs(a) * (m - b) + pairs(a + 1) * b;
     lli max = pairs(n - m + 1);
     cout << min << " " << max << endl;
-    return 0;
-
-
-
+    
+    
     return 0;
 }
