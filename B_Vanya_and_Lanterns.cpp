@@ -32,7 +32,6 @@ int main()
 
     cout.precision(20);
     cout << fixed << r / 2.0 << endl;
-    return 0;
 
 
 
