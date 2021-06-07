@@ -37,9 +37,7 @@ int main()
     }
 
     cout << friends << endl;
-    return 0;
-
-
+    
 
     return 0;
 }
