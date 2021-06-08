@@ -10,6 +10,22 @@ using namespace std;
 #define ss set<string>
 #define mii map<int,int>
 
+void solve(){
+    lli n;
+    cin>>n;
+    lli total = 0;
+    for(int i=1; i<=9; i++){
+        lli x = 0;
+        for(int j=1; j<=10; j++){
+            x = x*10+i;
+            if(x<=n){
+                total++;
+            }
+        }
+    }
+    cout<<total<<endl;
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
@@ -17,12 +33,10 @@ int main()
 
     //TODO: Start your code here:
 
-    int t; cin>>t;
+    int test; cin>>test;
 
-    while(t--){
-        int n; cin>>n;
-        if(n<=10) cout<<9<<endl;
-        
+    while(test-- > 0){
+        solve();
     }
 
 
